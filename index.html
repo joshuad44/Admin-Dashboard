@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Admin Dashboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="dashboard.css">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+       <div id = "main-body">
+            <div id = "side-bar">
+                <div id = "side-header">
+                    <span id = "side-header-icon" class="material-symbols-outlined">
+                        dashboard
+                    </span>
+                    <span id ="side-header-text">
+                        Dashboard
+                    </span>
+                </div>
+                <div id = "side-body" >
+                    <button class = "rows">
+                        <div class = "icons">
+                            <span id = "icon-home" class="material-symbols-outlined">
+                                home
+                            </span>
+                        </div>
+                        <div class = "cells" id = "side-home">
+                            Home
+                        </div>
+                    </button>
+                    <button class = "rows">
+                        <div class = "icons" >
+                            <span id = "icon-profile" class="material-symbols-outlined">
+                                badge
+                            </span>
+                        </div>
+                        <div class = "cells" id = "side-profile">
+                            Profile
+                        </div>
+                    </button>
+                    <button class = "rows">
+                        <div class = "icons" >
+                            <span id = "icon-messages" class="material-symbols-outlined">
+                                mail
+                            </span>
+                        </div>
+                        <div class = "cells" id = "side-messages">
+                            Messages
+                        </div>
+                    </button>
+                    <button class = "rows">
+                        <div class = "icons" >
+                            <span id = "icon-history" class="material-symbols-outlined">
+                                history
+                            </span>
+                        </div>
+                        <div class = "cells" id = "side-history">
+                            History
+                        </div>
+                    </button>
+
+                    <button class = "rows">
+                        <div class = "icons" >
+                            <span id = "icon-tasks" class="material-symbols-outlined">
+                                library_books
+                            </span>
+                        </div>
+                        <div class = "cells" id = "side-tasks">
+                            Tasks
+                        </div>
+                    </button>
+                    <button class = "rows">
+                        <div class = "icons" >
+                            <span id = "icon-communities" class="material-symbols-outlined">
+                                groups
+                            </span>
+                        </div>
+                        <div class = "cells" id = "side-communities">
+                            Communities
+                        </div>
+                    </button>
+                    <div class>
+                        <div class = "icons">
+                            
+                        </div>
+                        <div class = "cells" id = "side-space">
+                            
+                        </div>
+                    </div>
+                    <button class = "rows">
+                        <div class = "icons" >
+                            <span id = "icon-settings" class="material-symbols-outlined">
+                                settings
+                            </span>
+                        </div>
+                        <div class = "cells" id = "side-settings">
+                            Settings
+                        </div>
+                    </button>
+                    <button class = "rows">
+                        <div class = "icons" >
+                            <span id = "icon-support" class="material-symbols-outlined">
+                                help
+                            </span>
+                        </div>
+                        <div class = "cells" id = "side-support">
+                            Support  
+                        </div>
+                    </button>
+                    <button class = "rows">
+                        <div class = "icons">
+                            <span id = "icon-privacy" class="material-symbols-outlined">
+                                verified_user
+                            </span>
+                        </div>
+                        <div class = "cells" id = "side-privacy">
+                            Privacy
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div id = "dashboard-body">
+                <div id = "header">
+                    <div id = "upper">
+                        <button id = "search-button">
+                            <span id = "search-icon" class="material-symbols-outlined">
+                                search
+                            </span>
+                        </button>   
+                        <input id = "search-bar">
+                        <button id = "notification-button">
+                            <span id = "notification-icon" class="material-symbols-outlined">
+                                notifications
+                            </span>
+                        </button>
+                        <img id = "pfp-1" src="manga-2.jpg">
+                        <span id = "profile-name-1">
+                            Joshua Daisy
+                        </span>
+                    </div>
+                    <div id = "lower">
+                        <img id = "pfp-2" src="manga-2.jpg">
+                        <div id = "profile-text">
+                            <span id = "profile-text-1">
+                                Hi there,
+                            </span>
+                            <span id = "profile-text-2">
+                                Joshua Daisy (@joshua)
+                            </span>
+                        </div>
+                        <button class = "profile-buttons" id = "profile-button-1">
+                            New
+                        </button>
+                        <div id = "divider"></div>
+                        <button class = "profile-buttons" id = "profile-button-1">
+                            Upload
+                        </button>
+                        <div id = "divider"></div>
+                        <button class = "profile-buttons" id = "profile-button-1">
+                            Share
+                        </button>
+                        <div id = "divider"></div>
+                    </div>
+                </div>
+                <div id = "dashboard">
+                    <div id = "projects">
+                        <span id = "legends-1" class = "legends">
+                            Projects
+                        </span>
+                        <div id = "project-grid">
+                            <div class = "projects" id = "project-1">
+                                <span id = "project-title-1">
+                                    Super Cool Project 1
+                                </span>
+                                <span id = "project-text-1">
+                                    <br>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br>
+                                </span>
+                            </div>
+                            <div class = "projects" id = "project-2">
+                                <span id = "project-title-1">
+                                    Super Cool Project 2
+                                </span>
+                                <span id = "project-text-1">
+                                    <br>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br>
+                                </span>
+                            </div>
+                            <div class = "projects" id = "project-3">
+                                <span id = "project-title-1">
+                                    Super Cool Project 3
+                                </span>
+                                <span id = "project-text-1">
+                                    <br>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br>
+                                </span>
+                            </div>
+                            <div class = "projects" id = "project-4">
+                                <span id = "project-title-1">
+                                    Super Cool Project 4
+                                </span>
+                                <span id = "project-text-1">
+                                    <br>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br>
+                                </span>
+                            </div>
+                            <div class = "projects" id = "project-5">
+                                <span id = "project-title-1">
+                                    Super Cool Project 5
+                                </span>
+                                <span id = "project-text-1">
+                                    <br>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br>
+                                </span>
+                            </div>
+                            <div class = "projects" id = "project-6">
+                                <span id = "project-title-1">
+                                    Super Cool Project 6
+                                </span>
+                                <span id = "project-text-1">
+                                    <br>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br>
+                                </span>
+                            </div>
+                            <div class = "projects" id = "project-7">
+                                <span id = "project-title-1">
+                                    Super Cool Project 7
+                                </span>
+                                <span id = "project-text-1">
+                                    <br>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br>
+                                </span>
+                            </div>
+                            <div class = "projects" id = "project-8">
+                                <span id = "project-title-1">
+                                    Super Cool Project 8
+                                </span>
+                                <span id = "project-text-1">
+                                    <br>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id = "announcements-trending">
+                        <div id = "announcements">
+                            <span class = "legends">
+                                Announcements
+                            </span>
+                            <div id = "announcements-grid">
+                                <div class = "announcements" id = "announcement-1">
+                                    <span id = "project-title-1">
+                                        Announcement 1
+                                    </span>
+                                    <span id = "project-text-1">
+                                        <br>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br>
+                                    </span>
+                                </div>
+                                <div class = "announcements" id = "announcement-2">
+                                    <span id = "project-title-1">
+                                        Announcement 2
+                                    </span>
+                                    <span id = "project-text-1">
+                                        <br>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br>
+                                    </span>
+                                </div>
+                                <div class = "announcements" id = "announcement-3">
+                                    <span id = "project-title-1">
+                                        Announcement 3
+                                    </span>
+                                    <span id = "project-text-1">
+                                        <br>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id = "trending">
+                            <span class = "legends">
+                                Trending
+                            </span>
+                            <div id = "trending-grid">
+                                <div class = "trending-icon" id = "trending-1">
+                                    <img id = "pfp-1" src="zoro.jpeg">
+                                </div>
+                                <div class = "trending-text" id = "trending-2">
+                                    <span id = "trending-name">
+                                        @henry
+                                    </span>
+                                    <span id = "trending-info">
+                                        World Peace Builder
+                                    </span>
+                                </div>
+                                <div class = "trending-icon" id = "trending-3">
+                                    <img id = "pfp-1" src="law.jpeg">
+                                </div>
+                                <div class = "trending-text" id = "trending-4">
+                                    <span id = "trending-name">
+                                        @daniel
+                                    </span>
+                                    <span id = "trending-info">
+                                        Construction Worker
+                                    </span>
+                                </div>
+                                <div class = "trending-icon" id = "trending-5">
+                                    <img id = "pfp-1" src="ace.jpeg">
+                                </div>
+                                <div class = "trending-text" id = "trending-6">
+                                    <span id = "trending-name">
+                                        @andy
+                                    </span>
+                                    <span id = "trending-info">
+                                        Full-time Student
+                                    </span>
+                                </div>
+                                <div class = "trending-icon" id = "trending-7">
+                                    <img id = "pfp-1" src="shanks.jpeg">
+                                </div>
+                                <div class = "trending-text" id = "trending-8">
+                                    <span id = "trending-name">
+                                        @sean
+                                    </span>
+                                    <span id = "trending-info">
+                                        Electrician and Student
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div> 
+    
+        <script src="dashboard.js"  defer></script>
+    </body>
+</html>
